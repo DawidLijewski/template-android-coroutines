@@ -13,8 +13,8 @@ dependencies {
     // AndroidX
     implementation androidXDependencies.values()
 
-    //Rx
-    implementation rxJavaDependencies.values()
+    //Coroutines
+    implementation coroutinesDependencies.values()
 
     // Dagger
     implementation daggerDependencies.values()

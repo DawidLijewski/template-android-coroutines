@@ -6,7 +6,6 @@ import dagger.android.support.AndroidSupportInjectionModule
 import lijewski.template.App
 import lijewski.template.di.module.AppModule
 import lijewski.template.di.module.BuilderModule
-import lijewski.template.di.module.RxModule
 import javax.inject.Singleton
 
 @Singleton
@@ -14,8 +13,7 @@ import javax.inject.Singleton
     modules = [
         AndroidSupportInjectionModule::class,
         AppModule::class,
-        BuilderModule::class,
-        RxModule::class
+        BuilderModule::class
     ]
 )
 interface AppComponent : AndroidInjector<App> {
